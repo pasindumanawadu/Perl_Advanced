@@ -19,11 +19,18 @@ sub selectionSort {
 	}
 	return @list;
 }
-my @unsorted = reverse(1 .. 10);
+
+my $start_run = time();
+
+my @unsorted = reverse(1 .. 100000);
 say Dumper \@unsorted;
 #print "@unsorted\n";
 my @sorted = selectionSort(@unsorted);
 say Dumper \@sorted;
 #print "@sorted\n";
+
+my $end_run = time();
+my $run_time = $end_run - $start_run;
+print "Job took $run_time seconds\n";
 
 
