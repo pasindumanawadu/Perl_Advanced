@@ -22,7 +22,7 @@ sub selectionSort {
 
 my $start_run = time();
 
-my @unsorted = reverse(1 .. 100000);
+my @unsorted = reverse(1 .. 1000);
 say Dumper \@unsorted;
 #print "@unsorted\n";
 my @sorted = selectionSort(@unsorted);
