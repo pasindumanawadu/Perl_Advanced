@@ -36,11 +36,14 @@ print "----------------------------------------------------\n";
 print "\n";
 print "using pointers\n";
 
+@links = qw (2 Null 1);
 @nodes = qw (finger:Null whois:Null who:Null);
-print "@nodes/n";
+
+print "@nodes\n\n";
+
 for ($i=0; $i<=$#nodes; $i++) {
 	$ptr = \$nodes[$i];
-	@data = split (/:/, $$ptr);
+	@data = split(/:/, $$ptr);
 	print "Before: $ptr @data";
 	$data[1] = $links[$i];
 	print "-> @data \n";
