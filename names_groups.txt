@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 Mary:Mathematics,Chemistry,Sports,Physics,Spanish
 Joe:Sports,Theatre
 Barbie:Mathematics,Chemistry,Physics,Hungarian,Hebrew
+=======
+Mary:Mathematics,Chemistry,Sport,Physics
+Joe:Sport,Theatre
+Barbie:Mathematics,Chemistry,Physics
+>>>>>>> 71799a3cea1f88fc88d397a5c2eb00f706b2b8e6
